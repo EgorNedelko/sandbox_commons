@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sandbox_clickables</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+      <div class="container">
+
+         <!--headings 1to6-->
+         <div class="container headings">
+
+            <div class="item border">
+               <h1 title="heading1Title" class="heading1CLASS" id="clickableHeading1">heading1</h1>
+            </div>
+
+            <div class="item border">
+               <h2 title="heading2Title" class="heading2CLASS" id="clickableHeading2">heading2</h2>
+            </div>
+
+            <div class="item border">
+               <h3 title="heading3Title" class="heading3CLASS" id="clickableHeading3">heading3</h3>
+            </div>
+
+            <div class="item border">
+               <h4 title="heading4Title" class="heading4CLASS" id="clickableHeading4">heading4</h4>
+            </div>
+
+            <div class="item border">
+               <h5 title="heading5Title" class="heading5CLASS" id="clickableHeading5">heading5</h5>
+            </div>
+
+            <div class="item border">
+               <h6 title="heading6Title" class="heading6CLASS" id="clickableHeading6">heading6</h6>
+            </div>
+         </div>
+
+         <!--text-elements-->
+         <div class="container text-elements">
+            <div class="item border">
+               <p title="paragraphTITLE" class="paragraphCLASS" id="clickableParagraph">paragraph</p>
+            </div>
+            
+            <div class="item border">
+               <ul class="list">
+                  <li title="lstItemTITLE" class="lstItem" id="clickableUListItem">unordered-list-item</li>
+               </ul>
+            </div>
+   
+            <div class="item border">
+               <ol class="list">
+                  <li title="lstItemTITLE" class="lstItem" id="clickableOListItem" value="666">ordered-list-item</li>
+               </ol>
+            </div>
+         </div>
+
+         <!--sections-->
+         <div class="container block-elements">
+            <div title="clickableDIVtitle" class="item border block" id="clickableDIV">
+               blockDIV
+            </div>
+   
+            <div class="item border">
+               <span title="clickableSPANtitle" class="clickableSPANclass" id="clickableSPAN">inlineSPAN</span>
+            </div>
+   
+            <div class="item">
+               image ↓↓↓
+               <img title="imgTITLE" class="imgCLASS" id="clickableIMG" src="img/img.jpeg" alt="imgALT">
+            </div>
+         </div>
+
+         <!--dropdowns-->
+         <div class="container dropdowns">
+            <div class="item">
+               <label for="dropdownSELECT">slect-label-for</label>
+               <select title="slectTITLE" class="dropdownSlectCLASS" name="slectNAME" id="dropdownSELECT">
+                  <option title="optTITLE1" class="optCLASS" id="optID1" value="optnVALUE-1">opt-1</option>
+                  <option title="optTITLE2" class="optCLASS" id="optID2" value="optnVALUE-2">opt-2</option>
+                  <option title="optTITLE3" class="optCLASS" id="optID3" value="optnVALUE-3" label="opt3LABEL">opt-3</option>
+               </select>
+            </div>
+
+            <div class="item">
+               <label>slect-label-wrapped
+                  <select title="slectTITLE" class="dropdownSlectCLASS" name="slectNAME" id="dropdownSELECT">
+                     <option title="optTITLE1" class="optCLASS" id="optID1" value="optnVALUE-1">opt-1</option>
+                     <option title="optTITLE2" class="optCLASS" id="optID2" value="optnVALUE-2">opt-2</option>
+                     <option title="optTITLE3" class="optCLASS" id="optID3" value="optnVALUE-3" label="opt3LABEL">opt-3</option>
+                  </select>
+               </label>
+            </div>
+         </div>
+      </div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
